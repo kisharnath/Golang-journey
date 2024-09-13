@@ -30,6 +30,10 @@ func main(){
 	for i:=0; i<len(ceoAge);i++{
 		fmt.Println(ceoAge[i])
 	}
-	
+	g := 0
+	for ; g < len(ceoAge); {
+		fmt.Println(ceoAge[g])
+		g++
+	}
 
 }
